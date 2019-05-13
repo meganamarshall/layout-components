@@ -5,8 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose",
+    "test:watch": "npm run test --watch",
     "build": "webpack -p --devtool source-map",
     "start": "webpack-dev-server --hot --mode development --devtool eval-source-map"
+  },
+  "jest": {
+    "setupFilesAfterEnv": ["<rootDir>src/setupTests.js"],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   },
   "repository": {
     "type": "git",
