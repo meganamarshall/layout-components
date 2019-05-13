@@ -6,19 +6,30 @@ exports[`Color component matches color snapshot 1`] = `
     Name:
   </dt>
   <dd>
-    red
+    Red
   </dd>
   <dt>
     Hex:
   </dt>
   <dd>
-    F00
+    #FF0000
   </dd>
   <dt>
     RGB:
   </dt>
   <dd>
-    255,0,0
+    <p>
+      Red - 
+      255
+    </p>
+    <p>
+      Green - 
+      0
+    </p>
+    <p>
+      Blue - 
+      0
+    </p>
   </dd>
 </dl>
 `;
