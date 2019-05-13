@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Color component matches color snapshot 1`] = `
+<dl>
+  <dt>
+    Name:
+  </dt>
+  <dd>
+    red
+  </dd>
+  <dt>
+    Hex:
+  </dt>
+  <dd>
+    F00
+  </dd>
+  <dt>
+    RGB:
+  </dt>
+  <dd>
+    255,0,0
+  </dd>
+</dl>
+`;
