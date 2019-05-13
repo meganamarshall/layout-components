@@ -1,3 +1,7 @@
 .dogs {
   background-color: red;
+
+  li {
+    color: blue;
+  };
 }
