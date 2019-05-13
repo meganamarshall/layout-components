@@ -4,7 +4,6 @@
   "description": "Layout Components",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose",
     "build": "webpack -p --devtool source-map",
     "start": "webpack-dev-server --hot --open --mode development --devtool eval-source-map"
   },
