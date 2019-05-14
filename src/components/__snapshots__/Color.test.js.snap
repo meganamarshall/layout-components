@@ -1,7 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Color component matches color snapshot 1`] = `
-<dl>
+<dl
+  style={
+    Object {
+      "backgroundColor": "#FF0000",
+      "display": "inline-block",
+      "height": "5px",
+      "width": "5px",
+    }
+  }
+>
   <dt>
     Name:
   </dt>
