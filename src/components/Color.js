@@ -17,9 +17,15 @@ export default function Color() {
   };
   const hex = hexFromRGB(rgb);
   
+  const style = {
+    backgroundColor: hex,
+    display: 'inline-block',
+    width: '5px',
+    height: '5px'
+  };
 
   return (
-    <dl>
+    <dl style={style}>
       <dt>Name:</dt>
       <dd>{name}</dd>
 
